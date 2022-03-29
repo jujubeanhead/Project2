@@ -5,11 +5,23 @@
 
 body{
   font-size: 16px;
-  background-color: #000000;
+  background-color: #999;
   line-height: 1.1em;
   font-family: typewriter, sans-serif;
   color: white;
+	margin: 0;
+	padding: 0;
 }
+
+header{
+	background-color: black;
+	
+}
+
+h1{
+	background-color: 
+}
+
 
 .logo{
   margin-left: auto;
@@ -21,4 +33,12 @@ body{
 .hero{
   max-width: 100%;
   display: flex;
+}
+
+.crop{
+	height: 50vh;
+	with: 100%;
+	background-image: url("store2.jpg");
+	background-position: center;
+	background-size: cover;
 }
