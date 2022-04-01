@@ -5,7 +5,7 @@
 
 body{
   font-size: 16px;
-  background-color: #222;
+  background-color: #aaa;
   line-height: 1.1em;
   font-family: typewriter, sans-serif;
   color: white;
@@ -24,6 +24,10 @@ nav{
   padding: 20px;
 }
 
+nav a{
+  color: white;
+}
+
 h1{
   text-align: center;
   background-color: #000;
@@ -34,21 +38,14 @@ h1{
   width: 60%;
 }
 
-p{
+h3, p{
   background-color: #000;
-  padding: 10px;
   width: 60%;
 }
 
 a{
   color: #fff;
   text-decoration: none;
-}
-
-footer{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .logo{
@@ -65,7 +62,7 @@ footer{
 
 .crop{
 	height: 50vh;
-	with: 100%;
+	width: 100%;
 	background-image: url("store2.jpg");
 	background-position: center;
 	background-size: cover;
@@ -75,25 +72,106 @@ footer{
   text-align: center;
   background-color: #000;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto;
   padding: 10px;
   width: 60%;
+  max-width: 400px;
 }
 
 .locationicon{
-  max-width: 13px;
+  max-width: 20px;
   padding-right: 10%;
 
 }
 
-.staffpicks{
+/* flexbox----------- */
+
+.twoacross{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure{
+  flex-grow: 1;
+  /* flex-shrink: 1; */
+  flex-basis: 140px;
+  margin: 20px;
+  padding:10px;
+}
+
+figcaption{
+  text-align: center;
+  background-color: #000;
+}
+
+/* end flexbox----------- */
+
+.greybox{
   background-color: #666;
   width: 90%;
+  max-width: 1000px;
   margin: auto;
   padding: 10px;
 }
 
-.albumcovers{
-  width: 200px;
+  .albumcovers{
+  width: 100%;
+  max-width: 450px;
 }
+
+.show h3, .show p{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  padding: 10px;
+
+}
+
+.show img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+}
+
+footer{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+}
+
+.footerimage{
+  height: 100px;
+  background-image: url("footer.png");
+  background-position: bottom;
+  background-size: contain;
+}
+
+footer p{
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+/*
+--------float test---------
+
+ .show img{
+  float: left;
+  margin-left: 20px;
+  width: 60%;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+-------end float test------
+*/
