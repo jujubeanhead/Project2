@@ -38,11 +38,17 @@ h1{
   width: 60%;
   max-width: 400px;
   box-shadow: 0px 2px 4px #000000;
+  line-height: 1.6;
 }
 
-h3, p{
+h3{
   background-color: #000;
-  width: 60%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+p{
+  background-color: #000000;
 }
 
 a{
@@ -65,7 +71,7 @@ a{
 .crop{
 	height: 50vh;
 	width: 100%;
-	background-image: url("store2.jpg");
+	background-image: url("images/store2.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -157,7 +163,7 @@ footer{
 
 .footerimage{
   height: 100px;
-  background-image: url("footer.png");
+  background-image: url("images/footer.png");
   background-position: bottom;
   background-size: contain;
 }
@@ -174,7 +180,7 @@ footer p{
 .cropcontact{
 	height: 50vh;
 	width: 100%;
-	background-image: url("phonebooth.jpg");
+	background-image: url("images/phonebooth.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -182,22 +188,30 @@ footer p{
 .form-container{
   margin-left: auto;
   margin-right: auto;
+  padding: 2vh;
 }
 
 label{
   display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 label p{
-  max-width: 20%;
+  padding: 0 10px;
+  display: ruby;
 }
 
 input{
-  width: 60%;
+  display: block;
   padding: 1.7%;
   margin: 1.5%;
   font-size: 1em;
   border-radius: 4px;
+}
+
+.newsletter{
+  display: block ruby;
 }
 
 button{
