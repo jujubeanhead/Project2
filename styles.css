@@ -36,6 +36,8 @@ h1{
   margin-right: auto;
   padding: 20px;
   width: 60%;
+  max-width: 400px;
+  box-shadow: 0px 2px 4px #000000;
 }
 
 h3, p{
@@ -76,6 +78,7 @@ a{
   padding: 10px;
   width: 60%;
   max-width: 400px;
+  box-shadow: 0px 2px 4px #000000;
 }
 
 .locationicon{
@@ -102,6 +105,11 @@ figure{
 figcaption{
   text-align: center;
   background-color: #000;
+  max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 /* end flexbox----------- */
@@ -112,11 +120,14 @@ figcaption{
   max-width: 1000px;
   margin: auto;
   padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
   .albumcovers{
   width: 100%;
   max-width: 450px;
+  box-shadow: 0px 2px 4px #000000;
 }
 
 .show h3, .show p{
@@ -157,6 +168,62 @@ footer p{
   margin-top: 0;
   padding-top: 40px;
 }
+
+/* contact page----------- */
+
+.cropcontact{
+	height: 50vh;
+	width: 100%;
+	background-image: url("phonebooth.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.form-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label{
+  display: block;
+}
+
+label p{
+  max-width: 20%;
+}
+
+input{
+  width: 60%;
+  padding: 1.7%;
+  margin: 1.5%;
+  font-size: 1em;
+  border-radius: 4px;
+}
+
+button{
+  display: block;
+  background: black;
+  border: 1px solid black;
+  color: white;
+  font-size: 1.1em;
+  margin: 1.5%;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px #000000;
+  font-family: typewriter, sans-serif;
+}
+
+textarea{
+  min-height: 100px;
+  width: 100%;
+  padding: 1.7%;
+  margin: 1.5% 0;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* end contact page---------- */
 
 /*
 --------float test---------
