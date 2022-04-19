@@ -76,6 +76,14 @@ a{
 	background-size: cover;
 }
 
+.herotext{
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .locations{
   text-align: center;
   background-color: #000;
@@ -175,6 +183,8 @@ footer p{
   padding-top: 40px;
 }
 
+
+
 /* contact page----------- */
 
 .cropcontact{
@@ -238,6 +248,22 @@ textarea{
 }
 
 /* end contact page---------- */
+
+
+
+/* about page-------- */
+
+.cropabout{
+  height: 50vh;
+	width: 100%;
+	background-image: url("images/store3.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+/* end about page---- */
+
+
 
 /*
 --------float test---------
