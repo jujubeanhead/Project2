@@ -58,6 +58,14 @@ a{
   text-decoration: none;
 }
 
+li{
+  background-color: black;
+  list-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo{
   margin-left: auto;
   margin-right: auto;
@@ -103,6 +111,10 @@ a{
 
 }
 
+.centertext{
+  text-align: center;
+}
+
 /* flexbox----------- */
 
 .twoacross{
@@ -139,6 +151,7 @@ figcaption{
   margin-top: 30px;
   margin-bottom: 30px;
   box-shadow: 0px 2px 20px #666;
+  overflow: auto;
 }
 
   .albumcovers{
@@ -186,7 +199,9 @@ footer p{
   padding-top: 40px;
 }
 
-
+iframe{
+  float: right;
+}
 
 /* contact page----------- */
 
