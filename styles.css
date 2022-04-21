@@ -5,7 +5,8 @@
 
 body{
   font-size: 16px;
-  background-color: #aaa;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(198,198,198,1) 100%);
   line-height: 1.1em;
   font-family: typewriter, sans-serif;
   color: white;
@@ -22,6 +23,7 @@ nav{
   text-align: center;
   background-color: black;
   padding: 20px;
+  font-size: 20px;
 }
 
 nav a{
@@ -136,6 +138,7 @@ figcaption{
   padding: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
+  box-shadow: 0px 2px 20px #666;
 }
 
   .albumcovers{
@@ -150,7 +153,6 @@ figcaption{
   margin-right: auto;
   max-width: 40%;
   padding: 10px;
-
 }
 
 .show img{
@@ -158,6 +160,7 @@ figcaption{
   margin-right: auto;
   display: block;
   width: 90%;
+  box-shadow: 0px 2px 10px #000000;
 }
 
 footer{
@@ -256,9 +259,20 @@ textarea{
 .cropabout{
   height: 50vh;
 	width: 100%;
-	background-image: url("images/store3.jpg");
+	background-image: url("images/record.jpg");
 	background-position: center;
 	background-size: cover;
+}
+
+.about p{
+  margin: 5% 3%;
+  padding: 3%;
+}
+
+.about img{
+  float: right;
+  max-width: 40%;
+  margin: 10px;
 }
 
 /* end about page---- */
